@@ -1,34 +1,19 @@
 # PyBer_Analysis
 
-The analysis should contain the following:
+## Overview of the analysis:
 
-Overview of the analysis: Explain the purpose of the new analysis.
+Following a meeting with the CEO, we determined another analysis we would like to look into was the data based on city type. We decided to compose a DataFrame with the relevant data and to produce a visual graph to represent this.
 
+## Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+The results demonstrate that the Urban cities comprise of a majority of the rides and total fares, although the average fares per ride and per driver are lower compared to the suburban and rural areas. 
+![image](https://user-images.githubusercontent.com/87042597/137031137-34766f8c-4db8-4c3a-9de8-4bd75c78725d.png)
 
+These results are consistent month to month as well. Every week the Urban cities generated the most revenue, the Suburban cities generated the second most, while the Rural cities generated lowest. The ratios were very similar as well.
+![PyBer_fare_summary](https://user-images.githubusercontent.com/87042597/137032214-b75b7756-9206-4b53-81a5-6cceaa9f9e1d.png)
 
-With this information, you realize that the CEO is an expert in creating data visualizations. You definitely can't afford to botch this up!
+## Summary: 
+Rural areas have the highest average fare although the fewest rides and lowest revenue.  The best profit margins are in these areas and expanding may provide the best percentage return for the investment. 
 
-Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+There is a correlation in the total rides vs the total drivers to the average fare. It is more favorable to have fewer drivers than riders.
 
-Summary: Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
-
-
-
-It would be foolish to start messing around with such a large dataset without knowing exactly what you're trying to get out of it. So you and Omar have a head-to-head to clarify the process and outcomes for this project. You come up with the following list of steps and deliverables:
-
-Import your data into a Pandas DataFrame.
-Merge your DataFrames.
-Create a bubble chart that showcases the average fare versus the total number of rides with bubble size based on the total number of drivers for each city type, including urban, suburban, and rural.
-Determine the mean, median, and mode for the following:
-The total number of rides for each city type.
-The average fares for each city type.
-The total number of drivers for each city type.
-Create box-and-whisker plots that visualize each of the following to determine if there are any outliers:
-The number of rides for each city type.
-The fares for each city type.
-The number of drivers for each city type.
-Create a pie chart that visualizes each of the following data for each city type:
-The percent of total fares.
-The percent of total rides.
-The percent of total drivers.
-Omar has approved the project scope. It's time to get to work!
+There are a surplus of drivers in the Urban cities. For approximately every 3 drivers there were only 2 rides. Urban cities are the source for the most revenue, and a stronger marketing campaign should be used in these areas to lead to an increase in the amount of rides.
